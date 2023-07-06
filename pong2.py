@@ -123,7 +123,7 @@ while True:
     # ...
     sim.update_obj()
     # check ball_pos and decide game_over
-    # ...
+    game_over = pong.check_ball_pos()
     if game_over:
         break
 
